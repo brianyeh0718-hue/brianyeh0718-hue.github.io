@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>互動教學網</title>
+<meta name="description" content="數學、物理、化學各冊章節的互動教學網頁：簡報、互動視覺化、隨堂評量、資訊圖表、心智圖與學習卡。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="data/site.css">
+<style>
+.subj-nav{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.subj-nav a{text-decoration:none;padding:8px 18px;border-radius:999px;border:1px solid var(--line);background:var(--panel);font-size:17px;font-weight:700}
+.subj-nav a b{margin-right:6px}
+.subj-nav a:hover{border-color:var(--sc);color:var(--sc)}
+.subj{margin-bottom:44px;scroll-margin-top:16px}
+.subj h2{display:flex;align-items:center;gap:10px;margin:0 0 14px;font-size:28px;color:var(--sc)}
+.subj h2 .ic{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid var(--line);font-size:24px}
+.sites{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:16px}
+.site{display:flex;flex-direction:column;border:1px solid var(--line);border-top:4px solid var(--sc);border-radius:16px;background:linear-gradient(180deg,var(--panel2),var(--panel));padding:14px 16px}
+.site.soon{opacity:.6}
+.site-head{display:flex;align-items:center;flex-wrap:wrap;gap:6px 10px;font-size:21px;font-weight:900}
+.site-head a{text-decoration:none}.site-head a:hover{color:var(--sc)}
+.site-body{flex:1;margin:10px 0}
+.bk{padding:8px 0;border-top:1px dashed var(--line)}
+.bk-t{font-weight:700;text-decoration:none;font-size:17px}.bk-t:hover{color:var(--sc)}
+.bk-g{color:var(--mute);font-size:14px;margin-left:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.chip{text-decoration:none;border:1px solid var(--line);background:rgba(3,12,28,.45);border-radius:10px;padding:4px 10px;font-size:15px}
+.chip b{color:var(--yellow);margin-right:6px;font-weight:700}
+.chip:hover{border-color:var(--sc)}
+.d{color:var(--mute);font-size:14px;margin:4px 0 0}
+.loading{color:var(--mute);font-size:14px}
+.go{align-self:flex-start;text-decoration:none;color:var(--sc);font-weight:700;font-size:15px}
+.go:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="kicker">INTERACTIVE LESSONS</div>
+  <h1>互動教學網</h1>
+  <p>先選科目，再選冊別與章節。每一章都有 NotebookLM 簡報、互動視覺化、隨堂評量、資訊圖表，以及抽籤、計時器、畫筆等課堂工具。</p>
+  <nav class="subj-nav" id="subjNav"></nav>
+</div></header>
+<main><div class="wrap" id="subjects"></div></main>
+<footer><div class="wrap">各科教學內容依所用教科書版本與 108 課綱編寫；章節清單會隨各科網站更新自動顯示。</div></footer>
+<script src="data/subjects.js"></script>
+<script src="data/portal.js"></script>
+</body>
+</html>
