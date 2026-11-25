@@ -15,7 +15,9 @@ window.PORTAL = {
         { name: '高中數學', repo: 'senior-high-math', note: '高中・龍騰版' }
       ] },
     { id: 'physics', name: '物理', icon: '🧲', color: '#7aa8ff',
-      sites: [] },
+      sites: [
+        { name: '高中物理', repo: 'senior-high-physics', note: '高中・龍騰版' }
+      ] },
     { id: 'chem', name: '化學', icon: '⚗️', color: '#3ee08f',
       sites: [
         { name: '高中化學', repo: 'senior-high-chemistry', note: '高中・翰林版' }
