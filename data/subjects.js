@@ -21,6 +21,10 @@ window.PORTAL = {
     { id: 'chem', name: '化學', icon: '⚗️', color: '#3ee08f',
       sites: [
         { name: '高中化學', repo: 'senior-high-chemistry', note: '高中・翰林版' }
+      ] },
+    { id: 'bio', name: '生物', icon: '🧬', color: '#ff7aa8',
+      sites: [
+        { name: '高中生物', repo: 'senior-high-biology', note: '高中・龍騰版' }
       ] }
   ]
 };

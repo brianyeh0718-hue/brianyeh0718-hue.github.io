@@ -2,14 +2,15 @@
 
 網址：https://brianyeh0718-hue.github.io/
 
-這是所有科目教學網站的入口：先分數學、物理、化學，再進入各科網站選冊別與章節。
+這是所有科目教學網站的入口：先分數學、物理、化學、生物，再進入各科網站選冊別與章節。
 
 | 科目 | 網站 | 倉庫 |
 |---|---|---|
 | 數學 | 國中數學 | `junior-high-math` |
 | 數學 | 高中數學 | `senior-high-math` |
-| 物理 | （準備中） | — |
+| 物理 | 高中物理 | `senior-high-physics` |
 | 化學 | 高中化學 | `senior-high-chemistry` |
+| 生物 | 高中生物 | `senior-high-biology` |
 
 ## 結構
 
