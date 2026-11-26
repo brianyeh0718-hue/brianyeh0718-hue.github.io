@@ -11,7 +11,6 @@ window.PORTAL = {
   subjects: [
     { id: 'math', name: '數學', icon: '📐', color: '#ffd84d',
       sites: [
-        { name: '國中數學', repo: 'junior-high-math', note: '國中' },
         { name: '高中數學', repo: 'senior-high-math', note: '高中・龍騰版' }
       ] },
     { id: 'physics', name: '物理', icon: '🧲', color: '#7aa8ff',

@@ -6,7 +6,6 @@
 
 | 科目 | 網站 | 倉庫 |
 |---|---|---|
-| 數學 | 國中數學 | `junior-high-math` |
 | 數學 | 高中數學 | `senior-high-math` |
 | 物理 | 高中物理 | `senior-high-physics` |
 | 化學 | 高中化學 | `senior-high-chemistry` |
